@@ -1,5 +1,5 @@
 {
-  "name": "learn-js",
+  "name": "learn",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,8 @@
     "url": "https://github.com/Rohith0750/Learn-javascript-/issues"
   },
   "homepage": "https://github.com/Rohith0750/Learn-javascript-#readme",
-  "description": "",
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "description": ""
 }
