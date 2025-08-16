@@ -51,7 +51,12 @@ app.put('/' , function(req,res){
         msg:"Done"
     })
 
-
+  app.delete('/' , function(req,res){
+    users[0].kidney = [];
+    res.json({
+        msg: "All kidneys deleted successfully"
+    });
+  })
 })
 
 app.listen(3000);
