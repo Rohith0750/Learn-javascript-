@@ -51,6 +51,16 @@ app.put('/' , function(req,res){
         msg:"Done"
     })
 
+    app.delete('/' , function(req,res){
+        const newkidney = [];
+        for(let i=0;i<users[0].kidney.length;i++){
+            if(users[0].kidney[i].healthy){
+                newkidney.push(users[0].kidney[i]);
+            }
+        }
+        res.json({msg : "Done"})
+    })
+
 
 })
 
